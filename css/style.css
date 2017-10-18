@@ -2,6 +2,7 @@
 	border: 1px solid black;
 	width: 900px;
 	height: 540px;
+	position: absolute;
 }
 
 
@@ -18,11 +19,14 @@
 	height: 350px;
 	padding: 30px;
 	border-right: 1px solid black;
-	text-align: justify; 
+	text-align: justify;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px; 
 }
 
-h3, h2, h5{
-	text-align: center; 
+h3, h2, h5, h1{
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
 }
 
 
@@ -32,38 +36,48 @@ h3, h2, h5{
 	padding: 30px; 
 	border-right: 1px solid black;
 	text-align: justify; 
-	position: absolute; left: 230px; top: 90px;
+	position: absolute; left: 220px; top: 80px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px
 }
 
 .parrafo3{
 	width: 150px;
 	height: 350px;
 	padding: 30px; 
-
 	text-align: justify; 
-	position: absolute; left: 700px; top: 90px;
+	position: absolute; 
+	left: 690px; 
+	top: 90px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px
 }
 
+.info{
+
+}
 .caja-pies{
 	width: 900px;
-	height: 27px;
+	height: 45px;
 	background-color: #FDC02F;
 	text-align: center; 
 	overflow: hidden;
 	border-top: 1px solid black;
-	position: absolute; top: 520px;
+	position: absolute; 
+	top: 494px;
 }
 
-.imagen1{
-	background-image: url(../img/monopoly.png);
-	background-size: 100%;
-	position: absolute; top: 480px;
-	overflow: hidden;
+.monopoly{
+	width: 210px;
+	height: 170px;
+	position: absolute; 
+	right: 690px;
+	top: 370px;
 }
 
-.imagen2{
-	background-image: url(../img/monopoly-moderno.png);
-	background-size: 100%;
-	position: absolute; left:700px; top: 480px;
-	overflow: hidden;
+.monopoly-moderno{
+	width: 160px;
+	height: 120px;
+	position: absolute; 
+	top: 300px;
 }
